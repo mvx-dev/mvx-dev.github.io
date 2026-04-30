@@ -4,16 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>fucking shit site</title>
-        <link href="css/index.css" rel="stylesheet">
+        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/header.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <h1 class="heading">mikumiku/home</h1>
             <nav>
-                <a href="index.html">/home</a>
-                <a href="projects.html">/projects</a>
-                <a href="photos.html">/photos</a>
-                <a href="blog.html" class="last">/blog</a>
+                <a href="/index.html" class="sep">/home</a>
+                <a href="/projects.html" class="sep">/projects</a>
+                <a href="/photos/index.html" class="sep">/photos</a>
+
+                <div class="dropdown">
+                    <a href="/blog/index.html" class="last dropbtn">/blog</a>
+                    <div class="dropdown-content">
+                        <a href="/blog/tag/projects.html">/projects</a>
+                        <a href="/blog/tag/linux.html">/linux</a>
+                        <a href="/blog/tag/rambles.html">/rambles</a>
+                    </div>
+                </div>
+
             </nav>
         </header>
         <embed type="text/html">

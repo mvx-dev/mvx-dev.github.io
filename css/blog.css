@@ -1,0 +1,50 @@
+.post-list {
+    background-color: #1e1e2e;
+    border: 10px;
+    padding: 2%;
+}
+
+.post-list a {
+    text-decoration: none;
+}
+
+.post-list article {
+    padding: 10px;
+    background-color: #313244;
+    margin-bottom: 2%;
+    position: relative;
+    color: #cdd6f7;
+}
+
+.post-list a {
+    color: #89b4fa;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    color: #cdd6f7;
+    width: 100%;
+}
+
+.post-meta a.title {
+    margin-right: auto;
+}
+
+.post-meta a.title h2 {
+    color: #cba6f7;
+    margin: 0;
+    display: inline-block;
+}
+
+.post-meta p.timestamp {
+    padding: 0px 10px;
+    border-right: 1px solid #6c7086;
+    margin: 0px;
+}
+
+.post-meta a.tag {
+    color: #89b4fa;
+    padding: 0 10px;
+}
+

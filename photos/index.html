@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>fucking shit site</title>
+        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/header.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="header">mikumiku/photos</h1>
+            <div id="nav-slot"></div>
+            <script>
+                fetch('/nav.html')
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById('nav-slot').innerHTML = html;
+                    });
+            </script>
+        </header>
+    </body>
+</html>
